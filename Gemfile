@@ -17,3 +17,8 @@ gem "meta_search"
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
+group :test do 
+  gem 'factory_girl_rails' 
+  gem 'factory_girl'
+end
